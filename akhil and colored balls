@@ -1,4 +1,5 @@
 t=int(input())
+Print(0)
 while(t):
     i=input()
     j=input()
