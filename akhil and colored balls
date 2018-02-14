@@ -1,0 +1,19 @@
+t=int(input())
+while(t):
+    i=input()
+    j=input()
+    a=[]
+    for x in range(len(i)):
+        if i[x]==j[x]:
+            if i[x]=='w':
+                a.append('b')
+            else:
+                a.append('w')
+        else:
+            a.append('w')
+            str=''.join(a)
+    print(str+a[-1])        
+            
+    t=t-1            
+                
+        
